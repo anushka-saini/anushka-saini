@@ -2,98 +2,237 @@
 
 ### Computer Science Student | Data Science | Machine Learning | AI
 
-I'm a Computer Science student specializing in **Data Science**, passionate about using data, statistics, machine learning, and AI to solve real-world problems.
+I'm a Computer Science student specializing in **Data Science**, interested in building data-driven systems that solve real-world problems.
 
-I enjoy working across the complete problem-solving lifecycle:
+My work spans **Data Analytics, Machine Learning, Time Series Forecasting, Generative AI, and MLOps**. I enjoy taking a problem from **raw data → analysis → modeling → evaluation → practical decision-making**.
 
-**Problem Definition → Data Exploration → Statistical Analysis → Feature Engineering → Modeling → Evaluation → Decision Making → Deployment**
-
-My current interests include **Data Science, Machine Learning, Time Series Forecasting, Generative AI, MLOps, and Data Analytics**.
-
-I'm also strengthening my foundations in **Java, Data Structures & Algorithms, and problem solving**.
+Currently strengthening my foundations in **Java, Data Structures & Algorithms, Machine Learning, Time Series, and production-oriented data workflows**.
 
 ---
 
-## 🧠 About Me
+## 🚀 What I Work On
 
-- 🎓 Computer Science undergraduate specializing in **Data Science**
-- 📊 Interested in **Data Science, Machine Learning, Data Analytics, and AI**
-- 📈 Building projects around **Time Series Forecasting and Predictive Modeling**
-- 🤖 Exploring **Generative AI, LLM applications, and AI workflows**
-- ⚙️ Learning **MLOps, reproducibility, model workflows, and deployment**
-- 💻 Strengthening **Java, DSA, and algorithmic problem solving**
-- 🔬 Interested in research-oriented projects where hypotheses can be tested using real data
-- 🚀 I prefer building projects that solve **practical business and real-world problems**
+- 📊 **Data Analytics** — extracting patterns, trends, and business insights from real-world datasets
+- 🤖 **Machine Learning** — classification, prediction, feature engineering, model evaluation, and explainability
+- 📈 **Time Series Forecasting** — demand forecasting, seasonality, structural changes, and adaptive models
+- ⚙️ **MLOps** — reproducible environments, Git/GitHub, ML workflows, APIs, and deployment concepts
+- 🧠 **Generative AI** — exploring LLM applications, LangChain, prompting, and AI workflows
+- 💻 **Problem Solving** — Java, Data Structures & Algorithms, and LeetCode
 
 ---
 
-# 🚀 Featured Projects
+# 🔥 Featured Projects
 
 ## 💳 Cost-Aware Fraud Detection with Delay-Aware Decisioning
 
-A fraud detection system designed for highly imbalanced financial transaction data, focusing on **temporal evaluation, cost-aware decision making, delayed fraud labels, model monitoring, and explainable machine learning**.
+A machine learning system for **fraud detection under extreme class imbalance**, focusing on temporal evaluation, cost-aware decisions, delayed fraud labels, model monitoring, and explainable ML.
 
-### Problem
+### 🔍 Key Focus
 
-Traditional fraud classifiers can perform well on overall accuracy while failing to identify rare fraudulent transactions.
-
-This project focuses on the more realistic question:
-
-> **How should a fraud detection system make decisions when fraud is extremely rare, mistakes have unequal costs, and labels may become available with delay?**
-
-### Key Components
-
-- Extreme class-imbalance analysis
+- Highly imbalanced transaction classification
 - Time-aware train/evaluation strategy
-- Transaction-behavior feature engineering
+- Transaction-level feature engineering
 - Logistic Regression baseline
 - LightGBM modeling
 - PR-AUC and Precision@K evaluation
-- Cost-aware threshold selection
-- Delayed decision-making considerations
-- Feature and data drift monitoring
-- Model evaluation under temporal change
+- Cost-aware decision thresholds
+- Delay-aware decision making
+- Feature and data drift analysis
+- Explainable machine learning
 - FastAPI inference workflow
 
-### Tech
+**Tech:** Python • Pandas • NumPy • Scikit-learn • LightGBM • FastAPI • MLOps
 
-`Python` `Pandas` `NumPy` `Scikit-learn` `LightGBM` `FastAPI` `Machine Learning` `MLOps`
-
-**Repository:** `anushka-saini/Cost-Aware-Fraud-Detection-with-Delay-Aware-Decisioning`
+🔗 **Repository:**  
+https://github.com/anushka-saini/Cost-Aware-Fraud-Detection-with-Delay-Aware-Decisioning
 
 ---
 
 ## 📦 Adaptive SKU-Level Demand Forecasting Under Structural Regime Change
 
-A research-oriented retail forecasting project investigating whether **SKU-level demand-generating processes change over time** and whether forecasting models should adapt after statistically detectable structural breaks.
+A research-oriented retail forecasting project investigating whether **SKU-level demand-generating processes change over time** and whether adapting forecasting models after statistically detectable structural breaks improves forecast accuracy and inventory decisions.
 
-### Research Question
+### 🔍 Research Questions
 
-> **When a SKU's demand-generating process changes, does adapting the forecasting model improve forecast accuracy and downstream inventory decisions?**
+- Can structural breaks in SKU demand be statistically detected?
+- Can detected breaks be validated against observable retail events?
+- Does adapting the forecasting model after a break improve forecast accuracy?
+- Does improved forecasting translate into better inventory decisions?
 
-### Approach
+### 🔄 Approach
 
-```text
-M5 Retail Data
-      ↓
-Data Scoping
-      ↓
-Leading-Zero / Product-Launch Handling
-      ↓
-Revenue-Based ABC-XYZ Segmentation
-      ↓
-Time-Series Diagnostics
-      ↓
-Structural Break Detection
-      ↓
-Break Validation
-      ↓
-Static vs Adaptive Forecasting
-      ↓
-Forecast Evaluation
-      ↓
-Safety Stock & Reorder Point
-      ↓
-Inventory Cost / Service-Level Analysis
-      ↓
-Power BI Dashboard
+`M5 Dataset → Data Scoping → ABC-XYZ Segmentation → Time-Series Diagnostics → Structural Break Detection → Static vs Adaptive Forecasting → Inventory Decisions`
+
+### 📊 Methods
+
+- ABC-XYZ segmentation
+- ADF / KPSS stationarity testing
+- ACF / PACF analysis
+- Seasonal decomposition
+- CUSUM structural break detection
+- SARIMA / ETS
+- LightGBM with lag features
+- Croston / TSB for intermittent demand
+- Rolling-origin backtesting
+- MASE / WRMSSE evaluation
+- Safety stock & reorder point analysis
+
+**Tech:** Python • Pandas • NumPy • Statsmodels • Scikit-learn • LightGBM • Time Series • Statistical Testing • Power BI
+
+🔗 **Repository:**  
+https://github.com/anushka-saini/sku-demand-forecasting
+
+---
+
+# 📊 Other Projects
+
+## 🛒 Olist Marketplace Analytics
+
+Analyzed Brazilian e-commerce data to understand **customer behavior, sales performance, orders, delivery patterns, and marketplace trends**.
+
+### 🔍 Focus
+
+- Exploratory Data Analysis
+- Customer behavior
+- Sales and order trends
+- Product performance
+- Delivery analysis
+- Business-oriented visualizations
+- Data-driven insights
+
+**Tech:** Python • Pandas • NumPy • Matplotlib • Data Analysis • Data Visualization
+
+🔗 **Repository:**  
+https://github.com/anushka-saini/olist-marketplace-analytics
+
+---
+
+## 📈 Sales Performance Analysis
+
+Explored sales data to identify **sales trends, performance patterns, product-level insights, and business opportunities** through data analysis and visualization.
+
+**Tech:** Python • Pandas • NumPy • Matplotlib
+
+🔗 **Repository:**  
+https://github.com/anushka-saini/sales-performance-analysis
+
+---
+
+## 🤖 Generative AI Projects
+
+A collection of hands-on experiments and applications exploring **Generative AI, LLM applications, prompt engineering, and AI-powered workflows**.
+
+**Tech:** Python • Generative AI • LLMs • LangChain • AI Applications
+
+🔗 **Repository:**  
+https://github.com/anushka-saini/Gen-AI
+
+---
+
+# 💻 Data Structures & Algorithms
+
+I'm actively strengthening my problem-solving skills using **Java** and practicing algorithmic problems through **LeetCode**.
+
+### 📚 Topics I'm Practicing
+
+`Arrays` • `Hashing` • `Strings` • `Two Pointers` • `Sliding Window` • `Prefix Sum` • `Sorting` • `Binary Search` • `Recursion` • `Linked Lists` • `Stacks` • `Queues` • `Trees` • `Graphs` • `Dynamic Programming`
+
+### 🧩 Problem Solving
+
+🔗 **LeetCode:**  
+https://leetcode.com/
+
+🔗 **DSA Practice Repository:**  
+https://github.com/anushka-saini/LeetCode
+
+---
+
+# 🛠️ Technical Skills
+
+## 💻 Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
+## 📊 Data Science & Machine Learning
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2C8EBB?style=for-the-badge)
+
+**Skills:** EDA • Feature Engineering • Classification • Regression • Model Evaluation • Imbalanced Learning • Predictive Modeling
+
+---
+
+
+
+## 🤖 Artificial Intelligence
+
+![Generative AI](https://img.shields.io/badge/Generative%20AI-412991?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+
+**Skills:** LLMs • Prompt Engineering • LangChain • Generative AI • AI Applications
+
+---
+
+## ⚙️ Tools & Engineering
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**Skills:** Git • GitHub • Jupyter • VS Code • Virtual Environments • Requirements Management • APIs • MLOps • Reproducible Workflows
+
+---
+
+## 📊 Visualization & Business Intelligence
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+**Skills:** Matplotlib • Plotly • Power BI • Dashboarding • KPI Analysis • Data Storytelling
+
+---
+
+# 🧠 Currently Working On
+
+### 1. 📦 Adaptive Retail Demand Forecasting
+
+Investigating structural changes in SKU-level demand and testing whether adaptive forecasting can improve inventory decisions.
+
+### 2. 💳 Cost-Aware Fraud Detection
+
+Building a fraud detection workflow focused on **temporal evaluation, cost-aware decision thresholds, drift, and explainable ML**.
+
+### 3. 💻 Data Structures & Algorithms
+
+Strengthening problem-solving skills with **Java** through LeetCode and systematic DSA practice.
+
+### 4. ⚙️ MLOps
+
+Learning how to move machine learning projects beyond notebooks through **reproducibility, version control, environments, APIs, deployment, and monitoring**.
+
+### 5. 🤖 Generative AI
+
+Exploring and building practical applications using modern **LLM and AI tooling**.
+
+---
+# 🤝 Let's Connect
+
+I'm always open to **learning, collaborating, discussing interesting problems, and working on meaningful projects**.
+
+📧 **Email:**  
+anushkass1509@gmail.com
+
+💼 **LinkedIn:**  
+https://www.linkedin.com/in/anushka-saini-a45491358/
+
+🐙 **GitHub:**  
+https://github.com/anushka-saini
