@@ -1,54 +1,99 @@
-## 🔥 Featured Projects
+# 👋 Hi, I'm Anushka
 
-### 💳 Cost-Aware Fraud Detection with Delay-Aware Decisioning
+### Computer Science Student | Data Science | Machine Learning | AI
 
-A fraud detection system designed for highly imbalanced transaction data, focusing on **temporal evaluation, cost-aware decisioning, delayed fraud labels, drift analysis, and explainable machine learning**.
+I'm a Computer Science student specializing in **Data Science**, passionate about using data, statistics, machine learning, and AI to solve real-world problems.
 
-**Key components:**
-- Extreme class-imbalance handling
-- Time-aware model evaluation
+I enjoy working across the complete problem-solving lifecycle:
+
+**Problem Definition → Data Exploration → Statistical Analysis → Feature Engineering → Modeling → Evaluation → Decision Making → Deployment**
+
+My current interests include **Data Science, Machine Learning, Time Series Forecasting, Generative AI, MLOps, and Data Analytics**.
+
+I'm also strengthening my foundations in **Java, Data Structures & Algorithms, and problem solving**.
+
+---
+
+## 🧠 About Me
+
+- 🎓 Computer Science undergraduate specializing in **Data Science**
+- 📊 Interested in **Data Science, Machine Learning, Data Analytics, and AI**
+- 📈 Building projects around **Time Series Forecasting and Predictive Modeling**
+- 🤖 Exploring **Generative AI, LLM applications, and AI workflows**
+- ⚙️ Learning **MLOps, reproducibility, model workflows, and deployment**
+- 💻 Strengthening **Java, DSA, and algorithmic problem solving**
+- 🔬 Interested in research-oriented projects where hypotheses can be tested using real data
+- 🚀 I prefer building projects that solve **practical business and real-world problems**
+
+---
+
+# 🚀 Featured Projects
+
+## 💳 Cost-Aware Fraud Detection with Delay-Aware Decisioning
+
+A fraud detection system designed for highly imbalanced financial transaction data, focusing on **temporal evaluation, cost-aware decision making, delayed fraud labels, model monitoring, and explainable machine learning**.
+
+### Problem
+
+Traditional fraud classifiers can perform well on overall accuracy while failing to identify rare fraudulent transactions.
+
+This project focuses on the more realistic question:
+
+> **How should a fraud detection system make decisions when fraud is extremely rare, mistakes have unequal costs, and labels may become available with delay?**
+
+### Key Components
+
+- Extreme class-imbalance analysis
+- Time-aware train/evaluation strategy
 - Transaction-behavior feature engineering
-- Logistic Regression baseline and LightGBM
+- Logistic Regression baseline
+- LightGBM modeling
 - PR-AUC and Precision@K evaluation
-- Cost-aware decision thresholds
-- Feature/data drift monitoring
+- Cost-aware threshold selection
+- Delayed decision-making considerations
+- Feature and data drift monitoring
+- Model evaluation under temporal change
 - FastAPI inference workflow
 
-**Tech:** Python • Pandas • Scikit-learn • LightGBM • FastAPI • Machine Learning • MLOps
+### Tech
 
-🔗 **Repository:**  
-https://github.com/anushka-saini/Cost-Aware-Fraud-Detection-with-Delay-Aware-Decisioning
+`Python` `Pandas` `NumPy` `Scikit-learn` `LightGBM` `FastAPI` `Machine Learning` `MLOps`
 
+**Repository:** `anushka-saini/Cost-Aware-Fraud-Detection-with-Delay-Aware-Decisioning`
 
-### 📦 Adaptive SKU-Level Demand Forecasting Under Structural Regime Change
+---
 
-A research-oriented retail forecasting project investigating whether **SKU-level demand-generating processes shift over time** and whether adapting forecasting models after statistically detected structural breaks improves inventory decisions.
+## 📦 Adaptive SKU-Level Demand Forecasting Under Structural Regime Change
 
-**Approach:**
+A research-oriented retail forecasting project investigating whether **SKU-level demand-generating processes change over time** and whether forecasting models should adapt after statistically detectable structural breaks.
 
-`M5 Dataset → Data Scoping → ABC-XYZ Segmentation → Time-Series Diagnostics → Structural Break Detection → Static vs Adaptive Forecasting → Inventory Decisions`
+### Research Question
 
-**Tech:** Python • Pandas • NumPy • Statsmodels • LightGBM • Time Series • Statistical Testing • Power BI
+> **When a SKU's demand-generating process changes, does adapting the forecasting model improve forecast accuracy and downstream inventory decisions?**
 
-🔗 **Repository:**  
-https://github.com/anushka-saini/sku-demand-forecasting
+### Approach
 
-
-### 🛒 Olist Marketplace Analytics
-
-Analyzed Brazilian e-commerce data to understand **customer behavior, sales performance, orders, delivery patterns, and marketplace trends**.
-
-**Tech:** Python • Pandas • NumPy • Data Analysis • Data Visualization
-
-🔗 **Repository:**  
-https://github.com/anushka-saini/olist-marketplace-analytics
-
-
-### 🤖 Generative AI Projects
-
-Hands-on experiments and applications exploring **Generative AI, LLMs, prompting, and AI-powered workflows**.
-
-**Tech:** Python • Generative AI • LLMs • LangChain
-
-🔗 **Repository:**  
-https://github.com/anushka-saini/Gen-AI
+```text
+M5 Retail Data
+      ↓
+Data Scoping
+      ↓
+Leading-Zero / Product-Launch Handling
+      ↓
+Revenue-Based ABC-XYZ Segmentation
+      ↓
+Time-Series Diagnostics
+      ↓
+Structural Break Detection
+      ↓
+Break Validation
+      ↓
+Static vs Adaptive Forecasting
+      ↓
+Forecast Evaluation
+      ↓
+Safety Stock & Reorder Point
+      ↓
+Inventory Cost / Service-Level Analysis
+      ↓
+Power BI Dashboard
